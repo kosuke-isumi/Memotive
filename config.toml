@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://kosuke-isumi.github.io"
+baseurl = "http://kosuke-isumi.github.io/"
 languageCode = "en-us"
 title = "Memotive"
 theme = "hugo-cactus-theme"
