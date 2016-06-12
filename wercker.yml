@@ -10,7 +10,8 @@ deploy:
     steps:
         - install-packages:
             packages: git ssh-client
-        - lukevivier/gh-pages@0.2.1:
+        - lukevivier/git-push:
             token: $GIT_TOKEN
+            branch: gh-pages
             basedir: public
             repo: kosuke-isumi/kosuke-isumi.github.io
