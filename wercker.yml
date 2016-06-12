@@ -12,6 +12,6 @@ deploy:
             packages: git ssh-client
         - lukevivier/git-push:
             token: $GIT_TOKEN
-            branch: gh-pages
+            branch: master
             basedir: public
             repo: kosuke-isumi/kosuke-isumi.github.io
