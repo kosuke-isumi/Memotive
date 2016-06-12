@@ -10,7 +10,7 @@ deploy:
     steps:
         - install-packages:
             packages: git ssh-client
-        - lukevivier/git-push:
+        - leipert/git-push:
             token: $GIT_TOKEN
             branch: master
             basedir: public
