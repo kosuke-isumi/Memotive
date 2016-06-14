@@ -35,6 +35,8 @@
                 </section>
             </footer>
 
+            <a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
+
             {{ template "_internal/disqus.html" . }}
 
             {{ partial "latest-posts.html" . }}

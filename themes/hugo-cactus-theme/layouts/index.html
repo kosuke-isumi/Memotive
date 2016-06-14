@@ -3,8 +3,9 @@
     {{ partial "nav.html" . }}
 
     <!-- {{ partial "title.html" . }} -->
+    <!-- {{ .Site.Title }} -->
 
-    {{ partial "profile.html" . }}
+    <h1>{{ partial "profile.html" . }}</h1>
 
     <section id="wrapper" class="home">
         {{ partial "post-list.html"  . }}
