@@ -28,9 +28,9 @@ disqusShortname = ""
 	about = ""
 	subscribe = ""
 	# Pagination links
-	olderPosts = ""
-	newerPosts = ""
-	readMore = ""
+	olderPosts = "前のページヘ"
+	newerPosts = "次のページヘ"
+	readMore = "他の記事もどうぞ"
 	copyright = ""
 	# Sharing options and author information in posts
 	aboutAuthor = "I'm a Programmer."
